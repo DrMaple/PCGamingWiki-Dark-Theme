@@ -5,8 +5,8 @@
 // @author       Maple
 // @match        https://www.pcgamingwiki.com/*
 // @grant        none
-// @updateURL
-// @downloadURL
+// @updateURL    https://raw.githubusercontent.com/DrMaple/PCGamingWiki-Dark-Theme/master/PCGamingWikiDarkTheme.js
+// @downloadURL  https://raw.githubusercontent.com/DrMaple/PCGamingWiki-Dark-Theme/master/PCGamingWikiDarkTheme.js
 // ==/UserScript==
 
 (function (window, undefined) {
@@ -60,8 +60,40 @@
 		'	background-color: #333333 !important',
 		'}',
         'code {',
-		'	color: #93d0ed !important',
+		'	color: #ffffff !important',
+		'}',
+        'code {',
+		'	border: 1px solid #ffffff !important',
+		'}',
+        '.article-image-text {',
+		'	background-color: #292a2d !important',
+		'}',
+        '#preferences {',
+		'	background-color: #292a2d !important',
+		'}',
+        '#preferences legend {',
+		'	color: #ffffff !important',
+		'}',
+        '.htmlform-tip {',
+		'	color: #ffffff !important',
+		'}',
+        '.page-Home .home-card {',
+		'	background-color: #292a2d !important',
+		'}',
+        '.page-Home .home-card {',
+		'	color: #ffffff !important',
+		'}',
+        '.project-intro {',
+		'	color: #ffffff !important',
+		'}',
+        '.project-intro {',
+		'	background-color: #292a2d !important',
+		'}',
+        '.editing-guide-list-item {',
+		'	background-color: #292a2d !important',
 		'}'
+
+
 
     ].join('\n');
     addStyle(css);
