@@ -103,6 +103,9 @@
 		'}',
         '.page-Home .table-assignment-body-row:nth-of-type(2n) .table-assignment-body-game, .page-Home .table-assignment-body-row:nth-of-type(2n) .table-assignment-body-status {',
 		'	background: #252525 !important',
+		'}',
+		'kbd {',
+		'	color: black !important',
 		'}'
 
 
