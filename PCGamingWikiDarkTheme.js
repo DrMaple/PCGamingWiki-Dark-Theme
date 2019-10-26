@@ -56,6 +56,9 @@
         'a {',
 		'	color: #93d0ed !important',
 		'}',
+        'a:visited {',
+		'	color: #5d8496 !important',
+		'}',
         'code {',
 		'	background-color: #333333 !important',
 		'}',
@@ -91,6 +94,12 @@
 		'}',
         '.editing-guide-list-item {',
 		'	background-color: #292a2d !important',
+		'}',
+        '.page-Home .home-subheader {',
+		'	background-color: #292a2d !important',
+		'}',
+        '.page-Home .home-subheader {',
+		'	color: #ffffff !important',
 		'}'
 
 
