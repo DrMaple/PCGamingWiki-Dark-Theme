@@ -17,7 +17,7 @@
 		'#main-content, tr:nth-child(even), #catlinks, .page-Home .table-assignment-body-row:nth-of-type(2n) .table-assignment-body-game, .page-Home .table-assignment-body-row:nth-of-type(2n) .table-assignment-body-status {',
 		'	background-color: #252525 !important',
 		'}',
-        '.pcgwikitable, h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11, h12, body, .template-infobox, code, #preferences legend, .htmlform-tip, .page-Home .home-card, .project-intro, .page-Home .home-subheader {',
+        '.pcgwikitable, h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11, h12, body, .template-infobox, code, #preferences legend, .htmlform-tip, .page-Home .home-card, .project-intro, .page-Home .home-subheader, table.wikitable {',
 		'	color: #ffffff !important',
 		'}',
         '#toc, .toc, code {',
