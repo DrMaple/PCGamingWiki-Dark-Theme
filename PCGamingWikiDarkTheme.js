@@ -11,8 +11,8 @@
 
 (function (window, undefined) {
     var css = [
-        'body, tr:nth-child(odd), #toc, .toc, html, .article-image-text, #preferences, .page-Home .home-card, .project-intro, .editing-guide-list-item, .page-Home .home-subheader, .ipsPad, .ipsApp ul.ipsPad, .ipsApp ol.ipsPad, .ipsWidget.ipsWidget_horizontal:not( .ipsWidgetHide ) + .ipsWidget {',
-		'	background-color: #292929 !important',
+        'body, tr:nth-child(odd), #toc, .toc, html, .article-image-text, #preferences, .page-Home .home-card, .project-intro, .editing-guide-list-item, .page-Home .home-subheader, .ipsPad, .ipsApp ul.ipsPad, .ipsApp ol.ipsPad, .ipsWidget.ipsWidget_horizontal:not( .ipsWidgetHide ) + .ipsWidget, table.wikitable > tr > th, table.wikitable > * > tr > th {',
+		'	background-color: #171717 !important',
 		'}',
 		'#main-content, tr:nth-child(even), #catlinks, .page-Home .table-assignment-body-row:nth-of-type(2n) .table-assignment-body-game, .page-Home .table-assignment-body-row:nth-of-type(2n) .table-assignment-body-status, .ipsDataList_large .ipsDataItem_main, .ipsDataList_large .ipsDataItem_stats, .ipsDataList_large .ipsDataItem_lastPoster, .ipsDataList_large .ipsDataItem_generic, ipsDataItem_category, .ipsDataItem_main, .ipsDataItem_stats, .ipsDataItem_lastPoster, .ipsDataItem_generic, .ipsDataItem_modCheck, .ipsDataItem_icon, .ipsWidget.ipsWidget_vertical .ipsWidget_title, .ipsWidget.ipsWidget_horizontal .ipsWidget_title, #ipsLayout_header nav, .ipsNavBar_primary:not( .ipsNavBar_noSubBars ) > ul:before, .ipsPad_half, .ipsApp ul.ipsPad_half, .ipsApp ol.ipsPad_half, .ipsNavBar_secondary, #elSearchExpanded, html[dir="ltr"] .ipsSideMenu_withChecks .ipsSideMenu_item a, html[dir="ltr"] .ipsSideMenu_withChecks a.ipsSideMenu_item, html[dir="ltr"] .ipsSideMenu_withChecks span.ipsSideMenu_item, html[dir="ltr"] .ipsSideMenu_withRadios .ipsSideMenu_item a, html[dir="ltr"] .ipsSideMenu_withRadios a.ipsSideMenu_item, html[dir="ltr"] .ipsSideMenu_withRadios span.ipsSideMenu_item {',
 		'	background-color: #252525 !important',
