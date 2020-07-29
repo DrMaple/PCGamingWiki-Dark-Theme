@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         PCGamingWiki Dark Mode
-// @version      0.1
+// @version      0.2
 // @description  Dark Mode for PcGamingWiki
 // @author       Maple
 // @match        *.pcgamingwiki.com/*
@@ -43,6 +43,12 @@
 		'}',
         '#elSearchExpanded .ipsMenu_title {',
 		'	background: #292929 !important',
+		'}',
+        '.sysreqTab {',
+		'	background: #7f8cb3 !important',
+		'}',
+        '.selectedTab {',
+		'	background: #556DB3 !important',
 		'}'
 
 
